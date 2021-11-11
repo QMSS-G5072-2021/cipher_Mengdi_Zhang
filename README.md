@@ -8,9 +8,9 @@ HW7 for MDS Fall 2022 columbia
 $ pip install cipher_mz2884
 ```
 
-## Usage
+## Document
 
-- TODO
+- https://cipher-mz2884.readthedocs.io/en/latest/index.html
 
 ## Contributing
 
