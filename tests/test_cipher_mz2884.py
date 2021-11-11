@@ -5,3 +5,9 @@ def test_cipher_encrypt():
     expected = 'xiwx'
     actual = cipher_mz2884.cipher(example[0],example[1])
     assert actual == expected
+
+def test_cipher_encrypt_neg(): 
+    example = ['test negative', -5]
+    expected = 'oZno iZbVodqZ'
+    actual = cipher_mz2884.cipher(example[0],example[1])
+    assert actual == expected
